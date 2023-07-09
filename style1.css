@@ -1,0 +1,12 @@
+body{
+    background-color: grey;  
+    background-repeat: no-repeat;
+
+    }
+
+
+li {
+    display: inline-block;
+    margin : 1%; 
+    color: aqua;
+}

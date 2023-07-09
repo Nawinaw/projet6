@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+    background-repeat: no-repeat;
+    
+    }
+
+li {
+    display: inline-block;
+    margin : 1%; 
+}
+
+.container{
+    position: relative;
+    font-size: x-large;
+}
+
+.temperatureNord{
+    position: absolute;
+    transform: translate(300px, -550px);
+    color: brown;
+}
+
+.temperatureSud{
+    position: absolute;
+    transform: translate(300px, -250px);
+    color: blue;
+}
+
+.temperatureEst{
+    position: absolute;
+    transform: translate(420px, -480px);
+    color: pink;
+}
+
+.temperatureOuest{
+    position: absolute;
+    transform: translate(140px, -460px);
+    color: green;
+}
+
+.temperatureCentre{
+    position: absolute;
+    transform: translate(280px, -400px);
+    color: black;
+}
